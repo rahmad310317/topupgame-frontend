@@ -1,14 +1,21 @@
 <script setup>
 import NavigationLinkVue from '../landingPage/NavigationLink.vue';
 import LogoVue from '../landingPage/Logo.vue';
+import LoginVue from '../landingPage/Login.vue';
 
 </script>
 
 <template>
-  <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
-    <div class="container flex flex-wrap items-center justify-between mx-auto my-2">
-      <LogoVue />
-      <NavigationLinkVue />
-    </div>
-  </nav>
+<nav
+class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800"
+>
+<div
+  class="container flex flex-wrap items-center justify-between mx-auto my-2"
+>
+<LogoVue />
+<LoginVue />
+<NavigationLinkVue />
+
+</div>
+</nav>
 </template>
