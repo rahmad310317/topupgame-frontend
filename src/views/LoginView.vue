@@ -1,5 +1,5 @@
 <script setup>
-import LoginVue from '../components/authentication/Login.vue';
+import LoginFormVue from '../components/authentication/LoginForm.vue';
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import LoginVue from '../components/authentication/Login.vue';
           <div class="w-full p-5 mx-auto sm:max-w-md">
             <h2 class="mb-20 text-5xl font-bold text-center">Welcome Back</h2>
             <!-- LOGIN  -->
-            <LoginVue />
+            <LoginFormVue  />
           </div>
           <div class="w-full mx-auto mt-20 sm:max-w-2xl">
             <img src="img/brand-logo.svg" alt="" class="w-full px-10 md:px-0" />

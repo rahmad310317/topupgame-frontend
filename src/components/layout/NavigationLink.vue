@@ -4,18 +4,18 @@ import { RouterLink } from 'vue-router'
 
 <template>
     <div class="md:order-2">
-          <a
-            href="login.html"
+          <RounterLink
+            to="/"
             class="px-8 py-3 mt-2 mr-2 text-base font-medium text-black bg-gray-200 border border-transparent rounded-full hover:bg-gray-300 md:py-2 md:text-sm md:px-8 hover:shadow"
           >
             Sign In
-          </a>
-          <a
-            href="register.html"
+          </RounterLink>
+          <RouterLink
+            to="/"
             class="px-8 py-3 text-base font-medium text-white border border-transparent rounded-full bg-navy hover:bg-navy md:py-2 md:text-sm md:px-8 hover:shadow"
           >
             Sign Up
-          </a>
+          </RouterLink>
     </div>
     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
         <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-regular">

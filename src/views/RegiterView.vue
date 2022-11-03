@@ -1,5 +1,5 @@
 <script setup>
-import registerVue from '../components/authentication/register.vue';
+import registerFormVue from '../components/authentication/registerForm.vue';
 
 </script>
 
@@ -83,7 +83,7 @@ import registerVue from '../components/authentication/register.vue';
               </div>
               <div>
                 <!-- Register -->
-                <registerVue />
+                <registerFormVue />
               </div>
             </div>
           </div>
