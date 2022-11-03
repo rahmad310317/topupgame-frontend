@@ -1,5 +1,6 @@
 <script setup>
-import itemCard from '../landingPage/ItemCard.vue'
+import itemCard from '../layout/ItemCard.vue';
+
 import { ref } from 'vue';
 
 const newItem = ref([

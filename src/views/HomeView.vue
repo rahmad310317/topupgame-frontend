@@ -1,7 +1,7 @@
 <script setup>
-import HeroVue from '../components/landingPage/Hero.vue';
-import CategoriesVue from '../components/detailsPage/Categories.vue';
-import NewItemVue from '../components/detailsPage/NewItem.vue';
+import HeroVue from '../components/layout/Hero.vue';
+import CategoriesVue from '../components/homepage/Categories.vue';
+import NewItemVue from '../components/homepage/NewItem.vue';
 </script>
 
 <template>

@@ -1,7 +1,6 @@
 <script setup>
-import NavigationLinkVue from '../landingPage/NavigationLink.vue';
-import LogoVue from '../landingPage/Logo.vue';
-import LoginVue from '../landingPage/Login.vue';
+import NavigationLinkVue from '../layout/NavigationLink.vue';
+import LogoVue from '../layout/Logo.vue';
 
 </script>
 
@@ -13,7 +12,6 @@ class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800"
   class="container flex flex-wrap items-center justify-between mx-auto my-2"
 >
 <LogoVue />
-<LoginVue />
 <NavigationLinkVue />
 
 </div>
