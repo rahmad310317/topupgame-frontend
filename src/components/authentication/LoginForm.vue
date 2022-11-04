@@ -1,11 +1,14 @@
 <script setup>
-import { loadRouteLocation, RouterLink } from 'vue-router';
+import {  RouterLink } from 'vue-router';
 import { ref } from 'vue';
 
 const formLogin = ref({
   'email':'',
   'password':''
 })
+
+  
+
 </script>
 
 <template>

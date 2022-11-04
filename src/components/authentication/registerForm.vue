@@ -1,7 +1,7 @@
 <script setup>
 
 import { ref } from 'vue';
-
+import { RouterLink } from 'vue-router';
 const registerForm = ref ({
     'name': '',
     'email': '',
@@ -32,10 +32,10 @@ const registerForm = ref ({
                 class="inline-flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-full hover:bg-indigo-700 md:py-2 md:text-lg md:px-10 hover:shadow">
                 Continue Sign Up
             </button>
-            <button type="button"
+            <RouterLink to="/loginForm"
                 class="inline-flex items-center justify-center w-full px-8 py-3 mt-2 text-base font-medium text-black bg-gray-200 border border-transparent rounded-full hover:bg-gray-300 md:py-2 md:text-lg md:px-10 hover:shadow">
                 Sign In
-            </button>
+            </RouterLink>
         </div>
     </form>
 </template>
