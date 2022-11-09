@@ -20,9 +20,14 @@ const router = createRouter({
       component: () => import('../views/RegiterView.vue')
     },
     {
-      path: '/product',
+      path: '/product/:id',
       name: 'product',
       component: () => import('../views/ProductView.vue')
+    },
+    {
+      path: '/categories',
+      name: 'categories',
+      component: () => import('../views/CategoriesView.vue')
     },
     {
       path: '/pricing',
@@ -33,6 +38,11 @@ const router = createRouter({
       path: '/succes',
       name: 'succes',
       component: () => import('../views/SuccesView.vue')
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import('../views/aboutView.vue')
     }
   ]
 })

@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router';
 </script>
 
 <template>
@@ -13,10 +14,10 @@
                             Ready to explore our high quality design?
                         </p>
                     </div>
-                    <a href="#"
+                    <RouterLink to="/"
                         class="px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-full hover:bg-indigo-700 md:py-2 md:text-lg md:px-10 hover:shadow">
                         Explore Now
-                    </a>
+                    </RouterLink>
                 </div>
             </div>
         </div>
